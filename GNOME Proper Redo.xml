@@ -33,15 +33,15 @@
   <action id="IntentionActionAsAction_com.intellij.openapi.editor.actions.FlipCommaIntention">
     <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="comma" />
   </action>
-  <action id="RecentFiles" />
-  <action id="RecentFilesFallback" />
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="r" />
+  </action>
+  <action id="RecentFilesFallback">
+    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="r" />
+  </action>
   <action id="RecentLocations">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="e" />
-  </action>
-  <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift f6" />
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="r" />

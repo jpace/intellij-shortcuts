@@ -33,15 +33,25 @@
   <action id="IntentionActionAsAction_com.intellij.openapi.editor.actions.FlipCommaIntention">
     <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="comma" />
   </action>
-  <action id="RecentFiles">
-    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="r" />
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="down" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
-  <action id="RecentFilesFallback">
-    <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="r" />
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="up" />
+  </action>
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt slash" />
   </action>
   <action id="RecentLocations">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
     <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="e" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="r" />
@@ -63,6 +73,7 @@
   <action id="UpdateRunningApplication" />
   <action id="UsageFiltering.ReadAccess" />
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.UpdateProject" />
   <action id="XDebugger.CopyWatch" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
